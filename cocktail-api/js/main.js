@@ -14,7 +14,6 @@ function getDrink() {
             const randomDrink = Math.floor(Math.random() * drinkArray.length);
             document.querySelector('h2').innerText = data.drinks[randomDrink].strDrink
             document.querySelector('img').src = data.drinks[randomDrink].strDrinkThumb
-            document.querySelector('span').innerText = data.drinks[randomDrink]
             document.querySelector('h3').innerText = data.drinks[randomDrink].strInstructions
         })
         .catch(err => {
