@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="This is where your description goes">
+    <meta name="keywords" content="one, two, three">
+
+    <title>ISS Locator</title>
+
+    <!-- external CSS link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+ <img class="bg" src="background.jpg" alt="background image of stars in the sky">
+ <section>
+    <h1>Where is the ISS?</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/86YLFOog4GM" title="YouTube video player"
+        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe><br>
+
+    <button type="button" name="button">Get Current Position</button>
+   <h2>Latitude</h2>
+    <h3>Longitude</h3>
+    <div>Timestamp</div> 
+
+<!--Code below courtesy of Astroviewer.net to display widget depicting current ISS position over the earth-->
+<div id="av-orbit">
+    <script>
+        var avOrbitProperties = {
+            size: 'medium',
+            lang: 'en'
+        };
+    </script>
+    <script src="https://www.astroviewer.net/widgets/widgets/orbit.js"></script>
+</div>
+</section>
+    <script type="text/javascript" src="main.js"></script>
+
+   
+</body>
+
+</html>

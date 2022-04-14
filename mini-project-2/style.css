@@ -1,0 +1,47 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+* {
+    box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+img {
+    display: block;
+    max-height: 200px;
+}
+html {
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+}
+
+h1 {
+    text-align:center;
+    border: 1px solid white;
+    padding: 1rem;
+    background: white;
+    border-radius: 20%;
+    margin-left: 60rem;
+}
+
+div{
+    text-align: right;
+    margin: 3rem 2rem;
+}
+
+h2 {
+    display: none;
+    text-align: left;
+    padding: 1rem;
+    margin-left: 50rem;
+    border-radius: 10%;
+    background: white;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
