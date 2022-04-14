@@ -1,0 +1,36 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+body {
+  text-align: center;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+header {
+  background-color: aqua;
+  margin: 0 20px;
+  padding:0 0 10px 0;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+}
+img{
+  max-height: 200px;
+}
+#slider {
+  position: relative;
+  margin: 20px auto;
+  width: 500px;
+  height: 500px;
+  overflow: hidden;
+  box-shadow: 0 0 30px rgba(0,0,0,0.3);
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
